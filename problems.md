@@ -54,4 +54,4 @@
 ## Greedy
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| Date|
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|-----|
-0136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./C++/single-number.cpp) [Python](./Python/single-number.py) | _O(n)_       | _O(1)_          | Easy         |||
+
