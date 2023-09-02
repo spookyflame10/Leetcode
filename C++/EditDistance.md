@@ -41,7 +41,7 @@ public:
 };
 ```
 ## Solution 2: Bottom-Up Dp
-You can also convert the top-down to bottom-up.
+You can also convert the top-down to bottom-up. Note, you can also make the space complexity O(N) because the current dp row only depends on the previous dp row.
 ```cpp
 // Time: O(N*M) where N is word1.size() and M is word2.size()
 // Space: O(N*M) dp array
