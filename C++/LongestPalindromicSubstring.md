@@ -1,8 +1,9 @@
 # [5. Longest Palindromic Substring(Medium)](https://leetcode.com/problems/longest-palindromic-substring/description/)
 
 ## Thoughts 
-Great practice for Palindrome problems
+Great practice for Palindrome problems. 
 ## Solution 1: Dynamic Progrmaming
+Why we can use Dynamic Programming? It is because larger palindromes depend on smaller palindromes. The substructures are optimal because all we need to do is do a boundary check. Sub-problems are overlapping because while checking all substrings of a large string for palindromicity, we might need to check some the same smaller substrings, repeatedly.
 dp[i][j] = true if substring form i, j in string s is a palindrome.   
 Recurrence Relation: if(s[i]==s[j]&&dp[i+1][j-1]==true) then dp[i][j] = true.
 Base Cases: dp[i][i] = true. Because all substrings of length 1 are palindromes.  
@@ -28,7 +29,7 @@ public:
 ```
 
 ## Solution 2: 2 Pointers(Expanding from Center)
-We have O(N) starting points. N starting points odd length palindromes and  N starting points for even length palindromes. We expand from these points using 2 pointers and get the largest possible palindrome from each point. Expansion is done if s[i]==s[j].
+We have O(N) starting points. N starting points for odd length palindromes and  N starting points for even length palindromes. We expand from these points using 2 pointers and get the largest possible palindrome from each point. Expansion is done if s[i]==s[j].
 ```cpp
 // Time: O(n^2) It takes O(n) for each starting point so n*n
 // Space: O(1) since we use no extra space.

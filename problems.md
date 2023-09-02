@@ -59,3 +59,5 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| Date|
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|-----|
 5| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | [C++](./C++/LongestPalindromicSubstring.md)| _O(n^2)_       | _O(1)_          | Medium         ||Dynamic Programming, 2 Pointers|9/1/2023|
+647| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/) | [C++](./C++/PalindromicSubstring.cpp)| _O(n^2)_       | _O(N^2)_          | Medium         ||Dynamic Programming, 2 Pointers|9/1/2023|
+
