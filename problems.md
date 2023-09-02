@@ -55,3 +55,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| Date|
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|-----|
 
+## Dynamic Programming
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| Date|
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|-----|
+5| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | [C++](./C++/LongestPalindromicSubstring.md)| _O(n^2)_       | _O(1)_          | Medium         ||Dynamic Programming, 2 Pointers|9/1/2023|
