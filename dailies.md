@@ -23,8 +23,8 @@
 |92|9/07/2023|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/?envType=daily-question&envId=2023-09-07)|[C++](./C++/ReverseLinkedList.md)|_O(n)_|_O(1)_|Medium||Linked List||
 |118|9/08/2023|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/?envType=daily-question&envId=2023-09-08)|[C++](./C++/PascalsTriangle.md)|_O(n^2)_|_O(1)_|Easy||DP|Harder easy|
 |358|9/09/2023|[Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/description/)|[C++](./C++/PascalsTriangle.md)|_O(n)_|_O(k)_|Hard|🔒|Priority_queue, Greedy|Interesting way to keep track of "time" in queue|
-
-
+|377|9/09/2023|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/?envType=daily-question&envId=2023-09-09)|[C++](./C++/CombinationSumIV.md)|_O(Tn)_|_O(T)_|Medium||DP|Weird prob statement. Should be permutation, also unlike other combinationSum probs which were all backtracking|
+/home/simon/repos/Leetcode/C++/CombinationSumIV.md
 /home/simon/repos/Leetcode/C++/PascalsTriangle.md
 
 /home/simon/repos/Leetcode/C++/ReverseLinkedList.md
