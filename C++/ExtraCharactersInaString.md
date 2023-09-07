@@ -1,4 +1,4 @@
-# [2707. Extra Characters in a String(Medium)](https://leetcode.com/problems/counting-bits/description/?envType=daily-question&envId=2023-09-01)
+# [2707. Extra Characters in a String(Medium)](https://leetcode.com/problems/extra-characters-in-a-string/?envType=daily-question&envId=2023-09-02)
 
 ## Thoughts 
 Solved it sometime before. Interesting bit manipulation and dp.
