@@ -9,7 +9,6 @@ Recurrence Relation: if(word1[i]==word2[j]) then we can just go forward so retur
 Base Cases: if(j==word2.size()) then best choice is to only insert letters into word1, so return word1.size()-i.
 if(i==word1.size()) then best choice is to only delete characters from word1, so return word2.size()-j;
 ```cpp
-// OJ: https://leetcode.com/problems/maximum-number-of-ones/
 // Author: https://github.com/spookyflame10
 // Time: O(N*M) where N is word1.size() and M is word2.size()
 // Space: O(N*M) dp array
