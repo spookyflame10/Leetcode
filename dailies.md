@@ -24,7 +24,8 @@
 |118|9/08/2023|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/?envType=daily-question&envId=2023-09-08)|[C++](./C++/PascalsTriangle.md)|_O(n^2)_|_O(1)_|Easy||DP|Harder easy|
 |358|9/09/2023|[Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/description/)|[C++](./C++/PascalsTriangle.md)|_O(n)_|_O(k)_|Hard|🔒|Priority_queue, Greedy|Interesting way to keep track of "time" in queue|
 |377|9/09/2023|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/?envType=daily-question&envId=2023-09-09)|[C++](./C++/CombinationSumIV.md)|_O(Tn)_|_O(T)_|Medium||DP|Weird prob statement. Should be permutation, also unlike other combinationSum probs which were all backtracking|
-/home/simon/repos/Leetcode/C++/CombinationSumIV.md
-/home/simon/repos/Leetcode/C++/PascalsTriangle.md
+|1359|9/10/2023|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/description/?envType=daily-question&envId=2023-09-10)|[C++](./C++/CountAllValidPickupandDeliveryOptions.md)|_O(n)_|_O(1)_|Hard||Math, DP, Combinatorics|Fun Combo problem. Basically 100% Combinatorics/Counting|
 
-/home/simon/repos/Leetcode/C++/ReverseLinkedList.md
+/home/simon/repos/Leetcode/C++/CountAllValidPickupandDeliveryOptions.md
+
+
