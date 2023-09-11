@@ -35,7 +35,7 @@ Opening Only the second tap will water the whole garden [0,5]
 -   `0 <= ranges[i] <= 100`
 
 ## Solution 1 (My Greedy Way)
-Use Greedy. First get intervals. Then sort the intervals first by smallest left then by biggest right. Then you pick the interval with biggest right. Then for all intervals with left within biggest right you choose a new biggest right. keep on going until right >=n.
+Use Greedy. First get intervals. Then sort the intervals first by min left second by max right. Then go through the sorted intervals starting from the smallest one, you choose this interval. In the loop: you choose the interval with the largest right for all intervals with left within the current right. Keep track of count of intervals you choose in ans variable. Keep on going until right >=n.
 
 ```cpp
 // OJ: https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/
