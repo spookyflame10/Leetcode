@@ -19,6 +19,7 @@
 |377|9/09/2023|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/?envType=daily-question&envId=2023-09-09)|[C++](./C++/CombinationSumIV.md)|_O(Tn)_|_O(T)_|Medium||DP|Weird prob statement. Should be permutation, also unlike other combinationSum probs which were all backtracking|
 |1359|9/10/2023|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/description/?envType=daily-question&envId=2023-09-10)|[C++](./C++/CountAllValidPickupandDeliveryOptions.md)|_O(n)_|_O(1)_|Hard||Math, DP, Combinatorics|Fun Combo problem. Basically 100% Combinatorics/Counting|
 |1282|9/10/2023|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/?envType=daily-question&envId=2023-09-11)|[C++](./C++/GroupthePeopleGiventheGroupSizeTheyBelongTo.md)|_O(n)_|_O(1)_|Medium||Greedy|I still suck at greedy.|
+|135|9/12/2023|[Candy](https://leetcode.com/problems/candy/description/?envType=daily-question&envId=2023-09-13)|[C++](./C++/GroupthePeopleGiventheGroupSizeTheyBelongTo.md)|_O(n)_|_O(n)_|Medium||Greedy, DP/array|Felt good to solve this by myself. Took Geothermal like notes|
 
 
 ## Credits
