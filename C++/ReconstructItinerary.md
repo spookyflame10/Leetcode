@@ -49,7 +49,12 @@ public:
 };
 ```
 ## Solution 1: Hierholzer, DFS
-hierholzer: dfs, put node in res once all its neighbors are visited. reverse res cause last node is put in first
+Eulerian trail (or Eulerian path) is a trail in a finite graph that visits every edge exactly once (allowing for revisiting vertices).  
+Similarly, an Eulerian circuit or Eulerian cycle is an Eulerian trail that starts and ends on the same vertex: algo: we keep on stopping at cycle end and adding new cycle.   
+hierholzer: dfs, put node in res once all its neighbors are visited. reverse res cause last node is put in first   
+"Step 1. Starting from any vertex, we keep following the unused edges until we get stuck at certain vertex where we have no more unvisited outgoing edges.
+Step 2. We then backtrack to the nearest neighbor vertex in the current path that has unused edges and we repeat the process until all the edges have been used.
+The first vertex that we got stuck at would be the end point of our Eulerian path. So if we follow all the stuck points backwards, we could reconstruct the Eulerian path at the end."
 
 ```cpp
 // OJ: https://leetcode.com/problems/reconstruct-itinerary/description/?envType=daily-question&envId=2023-09-14
