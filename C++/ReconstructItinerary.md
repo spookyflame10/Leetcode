@@ -48,7 +48,7 @@ public:
     } 
 };
 ```
-## Solution 1: Hierholzer, DFS
+## Solution 2: Hierholzer, DFS
 Eulerian trail (or Eulerian path) is a trail in a finite graph that visits every edge exactly once (allowing for revisiting vertices).  
 Similarly, an Eulerian circuit or Eulerian cycle is an Eulerian trail that starts and ends on the same vertex: algo: we keep on stopping at cycle end and adding new cycle.   
 hierholzer: dfs, put node in res once all its neighbors are visited. reverse res cause last node is put in first   

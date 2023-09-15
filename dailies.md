@@ -21,7 +21,7 @@
 |1282|9/10/2023|[Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/?envType=daily-question&envId=2023-09-11)|[C++](./C++/GroupthePeopleGiventheGroupSizeTheyBelongTo.md)|_O(n)_|_O(1)_|Medium||Greedy|I still suck at greedy.|
 |135|9/12/2023|[Candy](https://leetcode.com/problems/candy/description/?envType=daily-question&envId=2023-09-13)|[C++](./C++/GroupthePeopleGiventheGroupSizeTheyBelongTo.md)|_O(n)_|_O(n)_|Medium||Greedy, DP/array|Felt good to solve this by myself. Took Geothermal like notes|
 |332|9/13/2023|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/?envType=daily-question&envId=2023-09-14)|[C++](./C++/GroupthePeopleGiventheGroupSizeTheyBelongTo.md)|_O(d^E)_|_O(v+E)_|Hard||dfs, graph, Eulerian Circuit|insane solution|
-
+|1136|9/14/2023|[Parallel Courses](https://leetcode.com/problems/parallel-courses/description/)|[C++](./C++/ParallelCourses.md)|_O(N+E)_|_O(N+E)_|Medium|🔒|bfs,dfs,Kahn's algo,topological sorting|bfs level by level traversal|
 
 ## Credits
 
