@@ -1,5 +1,6 @@
 // Time: O(n^2) traverses N^2 dp table
 // Space: O(n^2) from dp table
+#include <bits/stdc++.h>
 class Solution {
 public:
     int countSubstrings(string s) {

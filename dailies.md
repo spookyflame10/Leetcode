@@ -22,7 +22,9 @@
 |135|9/12/2023|[Candy](https://leetcode.com/problems/candy/description/?envType=daily-question&envId=2023-09-13)|[C++](./C++/GroupthePeopleGiventheGroupSizeTheyBelongTo.md)|_O(n)_|_O(n)_|Medium||Greedy, DP/array|Felt good to solve this by myself. Took Geothermal like notes|
 |332|9/13/2023|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/?envType=daily-question&envId=2023-09-14)|[C++](./C++/GroupthePeopleGiventheGroupSizeTheyBelongTo.md)|_O(d^E)_|_O(v+E)_|Hard||dfs, graph, Eulerian Circuit|insane solution|
 |1136|9/14/2023|[Parallel Courses](https://leetcode.com/problems/parallel-courses/description/)|[C++](./C++/ParallelCourses.md)|_O(N+E)_|_O(N+E)_|Medium|🔒|bfs,dfs,Kahn's algo,topological sorting|bfs level by level traversal|
-|896|9/28/2023|[Monotonic Arrays](https://leetcode.com/problems/monotonic-array/description/?envType=daily-question&envId=2023-09-29)|[C++](./C++/monotonicArray.md)|_O(N)_|_O(1)_|Easy||Array||
+|2393|9/28/2023|[Count Strictly Increasing Subarrays](https://leetcode.com/problems/count-strictly-increasing-subarrays/description/)|[C++](./C++/countStrictlyIncreasingSubarrays.md)|_O(N)_|_O(1)_|Medium||DP||
+|896|9/28/2023|[Monotonic Arrays](https://leetcode.com/problems/monotonic-array/description/?envType=daily-question&envId=2023-09-29)|[C++](./C++/monotonicArray.md)|_O(N)_|_O(1)_|Medium||Array||
+
 
 ## Credits
 
