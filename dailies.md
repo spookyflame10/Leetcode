@@ -24,7 +24,7 @@
 |1136|9/14/2023|[Parallel Courses](https://leetcode.com/problems/parallel-courses/description/)|[C++](./C++/ParallelCourses.md)|_O(N+E)_|_O(N+E)_|Medium|🔒|bfs,dfs,Kahn's algo,topological sorting|bfs level by level traversal|
 |2393|9/28/2023|[Count Strictly Increasing Subarrays](https://leetcode.com/problems/count-strictly-increasing-subarrays/description/)|[C++](./C++/countStrictlyIncreasingSubarrays.md)|_O(N)_|_O(1)_|Medium||DP||
 |896|9/28/2023|[Monotonic Arrays](https://leetcode.com/problems/monotonic-array/description/?envType=daily-question&envId=2023-09-29)|[C++](./C++/monotonicArray.md)|_O(N)_|_O(1)_|Medium||Array||
-
+|1063|9/28/2023|[Number of Valid Subarrays](https://leetcode.com/problems/number-of-valid-subarrays/description/)|[C++](./C++/NumberofValidSubarrays.md)|_O(N)_|_O(N)_|Medium|🔒|Monotonic Stack||
 
 ## Credits
 
