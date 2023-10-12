@@ -12,18 +12,18 @@ Therefore, for each element i, we just find an element to the right that's small
 // Author: https://github.com/spookyflame10
 // Time: O(N): One array pass
 // Space: O(N): stack storage
-    int validSubarrays(vector<int>& nums) {
-        int n = nums.size();
-        stack<int> st;
-        int res =0;
-        for(int i=n-1; i>=0; i--){
-            while(!st.empty()&&nums[st.top()]>=nums[i]) st.pop(); // take out all elements >= than nums[i] on the stack. that way an element smaller than nums[i] will be on the stack, and since we go in order, this element is the leftmost smallest.
-            if(st.empty()) res+=n-i;
-            else res+=st.top()-i;
-            st.push(i);
-        }   
-        return res;
-    }
+int validSubarrays(vector<int>& nums) {
+    int n = nums.size();
+    stack<int> st;
+    int res =0;
+    for(int i=n-1; i>=0; i--){
+        while(!st.empty()&&nums[st.top()]>=nums[i]) st.pop(); // take out all elements >= than nums[i] on the stack. that way an element smaller than nums[i] will be on the stack, and since we go in order, this element is the leftmost smallest.(leftmost always on top of the stack).
+        if(st.empty()) res+=n-i;
+        else res+=st.top()-i;
+        st.push(i);
+    }   
+    return res;
+}
 ```
 ## Solution 2: Another way to think about it
 Maintain a monotonic stack, when we're at number curr, each number num in the stack is the starting number such that [num, curr] can form a valid subarray. So the size of stack is the number of valid subarrays that end at curr.
